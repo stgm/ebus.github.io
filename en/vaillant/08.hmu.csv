@@ -75,10 +75,10 @@ r,,,HwcBivalencePoint,,,,b51a,05ff348f3530,ign,,IGN:3,,,,ign,,IGN:3,,,,temp,,D2C
 # fixes + writeable
 #r,,,MaxFlowTemp,,,,b51a,05ff348f3532,ign,,IGN:3,,,,ign,,IGN:3,,,,temp,,D2C,,°C,Maximum flow temperature
 #r,,,MinFlowTemp,,,,b51a,05ff348f3533,ign,,IGN:3,,,,ign,,IGN:3,,,,temp,,D2C,,°C,Minimum flow temperature
-r,,MaxFlowTemp,,,,b51a,05ff3532,ign,,IGN:3,,,,,,,D2C,,°C,Maximum flow temperature
-w,,MaxFlowTemp,,,,b51a,06ff3532,,,D2C,,°C,Maximum flow temperature
-r,,MinFlowTemp,,,,b51a,05ff3533,ign,,IGN:3,,,,,,,D2C,,°C,Minimum flow temperature
-w,,MinFlowTemp,,,,b51a,06ff3533,,,D2C,,°C,Minimum flow temperature
+r,,,MaxFlowTemp,,,,b51a,05ff3532,ign,,IGN:3,,,,,,,D2C,,°C,Maximum flow temperature
+w,,,MaxFlowTemp,,,,b51a,06ff3532,,,D2C,,°C,Maximum flow temperature
+r,,,MinFlowTemp,,,,b51a,05ff3533,ign,,IGN:3,,,,,,,D2C,,°C,Minimum flow temperature
+w,,,MinFlowTemp,,,,b51a,06ff3533,,,D2C,,°C,Minimum flow temperature
 
 r,,,HcModeActive,,,,b51a,05ff348f3534,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Central heating mode active
 r,,,HwcModeActive,,,,b51a,05ff348f3535,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
