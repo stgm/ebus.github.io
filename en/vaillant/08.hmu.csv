@@ -27,6 +27,8 @@ r,,,CurrentConsumedPower,current power consumption,,,b51a,05ff3224,ign,,IGN:3,,,
 r,,,CurrentCompressorUtil,current compressor utilization,,,b51a,05ff3225,ign,,IGN:3,,,,value,,SCH,,%,
 r,,,AirIntakeTemp,air intake temperature,,,b51a,05ff3226,ign,,IGN:3,,,,value,,D2C,,°C,temperature
 r,,,TargetTempHc,heat circuit target temperature,,,b51a,05ff321c,ign,,IGN:3,,,,value,,D2C,,°C,temperature
+# try writing
+w,,,TargetTempHc,heat circuit target temperature,,,b51a,06ff321c,value,,D2C,,°C,temperature
 r,,,SourceTempOutput,,,,b51a,05ff3227,ign,,IGN:3,,,,value,,D2C,,°C,temperature
 r,,,BuildingCircuitFlow,,,,b51a,05ff323c,ign,,IGN:3,,,,value,,UIN,,l/h,
 r,,,FlowPressure,,,,b51a,05ff323d,ign,,IGN:3,,,,value,,D2C,4,,
@@ -46,6 +48,11 @@ r,,,FourWayValveSwitches,,,,b51a,05ff3407,ign,,IGN:3,,,,value,,UIN,,,
 u,,,FourWayValveSwitches,,,,b51a,05e53407,ign,,IGN:3,,,,value,,UIN,,,
 r,,,EEVSteps,,,,b51a,05ff340d,ign,,IGN:3,,,,value,,UIN,,,
 u,,,EEVSteps,,,,b51a,05e5340d,ign,,IGN:3,,,,value,,UIN,,,
+
+# 341e works
+r,,,CompStartIntegral,integral value for compressor start,,,b51a,05ff341e,ign,,IGN:3,,,,value,,SIN,,°min,
+w,,,CompStartIntegral,integral value for compressor start,,,b51a,06ff341e,value,,SIN,,°min,
+
 r,,,FourWayValveSwitchingOperations,,,,b51a,05ff3430,ign,,IGN:3,,,,value,,UIN,,,
 u,,,FourWayValveSwitchingOperations,,,,b51a,05e53430,ign,,IGN:3,,,,value,,UIN,,,
 r,,,Fan1Hours,,,,b51a,05ff3451,ign,,IGN:3,,,,value,,UIN,,h,hours
@@ -73,9 +80,10 @@ r,,,ImmersionHeaterMode,,,,b51a,05ff34c4331e,ign,,IGN:3,,,,ign,,IGN:3,,,,onoff,,
 r,,,CompressorHysteresisHc,,,,b51a,05ff34f83443,ign,,IGN:3,,,,ign,,IGN:3,,,,calibration,,D2C,,K,Compressor hysteresis central heating
 r,,,CompressorHysteresisCooling,,,,b51a,05ff3486353f,ign,,IGN:3,,,,ign,,IGN:3,,,,calibration,,D2C,,K,Compressor hysteresis cooling
 r,,,HwcMode,,,,b51a,05ff34523444,ign,,IGN:3,,,,ign,,IGN:3,,,,uch,,UCH,0=eco;1=normal;2=balance,,Domestic hot water mod (eco/normal/balance)
-# fix
+# fix + write
 #r,,,TargetTempHwc,,,,b51a,05ff34c63207,ign,,IGN:3,,,,ign,,IGN:3,,,,temp,,D2C,,°C,Target Hwc temperature
 r,,,TargetTempHwc,,,,b51a,05ff3207,ign,,IGN:3,,,,temp,,D2C,,°C,Target Hwc temperature
+w,,,TargetTempHwc,,,,b51a,06ff3207,temp,,D2C,,°C,Target Hwc temperature
 r,,,YieldTotal,,,,b516,1801,ign,,IGN:1,,,,value,,UIN,,kWh,
 r,,,ConsumptionTotal,,,,b516,1802,ign,,IGN:1,,,,value,,UIN,,kWh,
 r,,,YieldThisYear1,,,,b516,1a010100,ign,,IGN:1,,,,month,,SCH,,,,ign,,IGN:1,,,,energy,,UIN,,kWh,
