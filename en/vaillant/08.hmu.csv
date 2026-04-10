@@ -53,6 +53,8 @@ u,,,EEVSteps,,,,b51a,05e5340d,ign,,IGN:3,,,,value,,UIN,,,
 r,,,CompStartIntegral,integral value for compressor start,,,b51a,05ff341e,ign,,IGN:3,,,,value,,SIN,,°min,
 w,,,CompStartIntegral,integral value for compressor start,,,b51a,06ff341e,value,,SIN,,°min,
 
+r,,,CompressorSilentOperationLevel,,,,b51a,05ff3428,value,,IGN:3,,,,value,,UCH,,%,
+
 r,,,FourWayValveSwitchingOperations,,,,b51a,05ff3430,ign,,IGN:3,,,,value,,UIN,,,
 u,,,FourWayValveSwitchingOperations,,,,b51a,05e53430,ign,,IGN:3,,,,value,,UIN,,,
 r,,,Fan1Hours,,,,b51a,05ff3451,ign,,IGN:3,,,,value,,UIN,,h,hours
