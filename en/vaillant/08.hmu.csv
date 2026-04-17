@@ -21,7 +21,7 @@ r,,,HoursCool,operation hours cooling,,,b51a,05ff3243,ign,,IGN:3,,,,value,,ULG,,
 r,,,HoursHwc,operation hours hot water,,,b51a,05ff3244,ign,,IGN:3,,,,value,,ULG,,h,hours
 r,,,TargetFlowTemp,target flow temperature,,,b51a,05ff321f,ign,,IGN:3,,,,value,,D2C,,°C,temperature
 # write
-r,,,TargetFlowTemp,target flow temperature,,,b51a,06ff321f,value,,D2C,,°C,temperature
+w,,,TargetFlowTemp,target flow temperature,,,b51a,06ff321f,value,,D2C,,°C,temperature
 r,,,FlowTemp,current flow temperature,,,b51a,05ff3220,ign,,IGN:3,,,,value,,D2C,,°C,temperature
 r,,,EnergyIntegral,current energy integral,,,b51a,05ff3221,ign,,IGN:3,,,,value,,SIN,,°min,
 r,,,CurrentYieldPower,current yielded energy from the environment,,,b51a,05ff3223,ign,,IGN:3,,,,value,,SCH,10,kW,
