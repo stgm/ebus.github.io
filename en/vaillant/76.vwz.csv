@@ -10,7 +10,7 @@ uw,,,SetMode,Operation mode,,,b510,00,hcmode,,UCH,0=auto;1=off;2=heat;3=water,,b
 r,,,Status01,Vorlauftemperatur/Rücklauftemperatur/Aussentemperatur/WW Temperatur/Speichertemperatur/Pumpenstatus,,,b511,01,aanvoer,,D1C,,°C,temperature,retour,,D1C,,°C,temperature,buiten,,D2B,,°C,temperature,ww,,D1C,,°C,temperature,boiler,,D1C,,°C,temperature,pumpstate,,UCH,0=off;1=on;2=overrun;4=hwc,,pump state
 u,,,State0F,,,,b512,0f,setvalve,m,UIR,1=pump off;2=heating;257=water,,valve position,temp,,D2C,,°C,Actual Hwc temperature
 #u,,,State00,,,,b512,00,S00_SupplyTemp,,D2C,,ºC,,field2,,UCH,,,,S00_CompressorModulation,,D2C,,%,,CompressorState,,UCH,0=off;1=Heating Prerun;4=Heating;5=Heating Overrun;110=Defrosting,,,HeatingState,,UCH,8=off;9=Heating,,,field6,,UCH,,,,Defrost,,UCH,0=inactive;32=active,,,S00_CompressorPower,,D2C,,%,
-uw,,,State13,,,,b512,13,pressure,,UCH,10,bar,Pressure,circuitflow,,UIN,,l/h,Current heating water flow rate (liter/hour)
+uw,,,State13,,,,b512,13,pressure,,UIN,10,bar,Pressure,circuitflow,,UIN,,l/h,Current heating water flow rate (liter/hour)
 
 # default stuff
 w,,service,EnableTestThreeWayValve,enable test 3 way valve,,,b514,0502,ignore,,HEX:3,=03FFFF,,,
