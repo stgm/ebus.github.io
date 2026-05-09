@@ -82,10 +82,10 @@ w,,,MaxFlowTemp,,,,b51a,06ff3532,temp,,D2C,,°C,Maximum flow temperature
 r,,,MinFlowTemp,,,,b51a,05ff3533,ign,,IGN:3,,,,temp,,D2C,,°C,Minimum flow temperature
 w,,,MinFlowTemp,,,,b51a,06ff3533,temp,,D2C,,°C,Minimum flow temperature
 
-r,,,HcModeActive,,,,b51a,05ff3534,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Central heating mode active
+r,,,HcModeActive,,,,b51a,05ff3534,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Central heating mode active
 w,,,HcModeActive,,,,b51a,06ff3534,yesno,,UCH,0=no;1=yes,,Central heating mode active
-r,,,HwcModeActive,,,,b51a,05ff3535,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
-w,,,HwcModeActive,,,,b51a,05ff3535,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
+r,,,HwcModeActive,,,,b51a,05ff3535,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
+w,,,HwcModeActive,,,,b51a,06ff3535,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
 
 r,,,BuildingCircuitPumpOutputHeating,,,,b51a,05ff3316,ign,,IGN:3,,,,value,,UCH,,%,
 r,,,BuildingCircuitPumpOutputCooling,,,,b51a,05ff3317,ign,,IGN:3,,,,value,,UCH,,%,
