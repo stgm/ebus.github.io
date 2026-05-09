@@ -87,9 +87,9 @@ w,,,HcModeActive,,,,b51a,06ff3534,yesno,,UCH,0=no;1=yes,,Central heating mode ac
 r,,,HwcModeActive,,,,b51a,05ff3535,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
 w,,,HwcModeActive,,,,b51a,06ff3535,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
 
-r,,,BuildingCircuitPumpOutputHeating,,,,b51a,05ff3316,ign,,IGN:3,,,,value,,UCH,,%,
-r,,,BuildingCircuitPumpOutputCooling,,,,b51a,05ff3317,ign,,IGN:3,,,,value,,UCH,,%,
-r,,,BuildingCircuitPumpOutputHwc,,,,b51a,05ff3318,ign,,IGN:3,,,,value,,UCH,,%,
+r,,,BuildingCircuitPumpOutputHeating,,,,b51a,05ff3316,ign,,IGN:3,,,,value,,UCH,49=auto,%,
+r,,,BuildingCircuitPumpOutputCooling,,,,b51a,05ff3317,ign,,IGN:3,,,,value,,UCH,49=auto,%,
+r,,,BuildingCircuitPumpOutputHwc,,,,b51a,05ff3318,ign,,IGN:3,,,,value,,UCH,49=auto,%,
 
 #r,,,HcModeActive,,,,b51a,05ff348f3534,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Central heating mode active
 #r,,,HwcModeActive,,,,b51a,05ff348f3535,ign,,IGN:3,,,,ign,,IGN:3,,,,yesno,,UCH,0=no;1=yes,,Domestic hot water mode active
